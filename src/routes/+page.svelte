@@ -1,2 +1,5 @@
-<h1>Your tribe for life profile card</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import Block from "$lib/components/Block.svelte";
+</script>
+
+<Block titel="Dit is de Block component" />
