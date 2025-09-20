@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Kode Mono";
+  src: url($lib/assets/fonts/KodeMono-Regular.ttf);
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: #000000;
+  color: var(--text-color);
+}
+
+body {
+  --main-font: "Kode Mono", sans-serif;
+
+  --primary-color: #f3e3d7;
+  --secondary-color: #c91833;
+  --accent-pink: #E684B5;
+  --text-color: #000;
+
+
+}
