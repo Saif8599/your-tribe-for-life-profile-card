@@ -148,9 +148,6 @@
       max-width: 200px;
       left: 53%;
     }
-  }
-
-  @media (min-width: 765px) {
     .svg-overlay-2 {
       top: 40%;
       left: 10%;

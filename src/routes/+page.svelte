@@ -1,4 +1,5 @@
 <script>
-  import SocialMediaBlock from "$lib/components/SocialMediaBlock.svelte";
+  import ModalBlock from "$lib/components/ModalBlock.svelte";
 </script>
 
+<ModalBlock />
