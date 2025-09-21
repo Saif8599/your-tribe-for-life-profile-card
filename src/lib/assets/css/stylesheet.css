@@ -66,6 +66,9 @@ h3 {
   }
 }
 
+li {
+  list-style-type: none;
+}
 /* Buttons */
 button,
 .button {
