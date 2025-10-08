@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Kode Mono";
-  src: url($lib/assets/fonts/KodeMono-Regular.ttf);
+  src: url(/fonts/KodeMono-Regular.ttf);
 }
 
 body {
