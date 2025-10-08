@@ -6,7 +6,7 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
-  <link rel="stylesheet" href="src\lib\assets\css\stylesheet.css" />
+  <link rel="stylesheet" href="/src/lib/assets/css/stylesheet.css" />
 </svelte:head>
 
 <div class="layout-container">
@@ -99,7 +99,7 @@
   .layout-container {
     min-height: 100vh;
     width: 100%;
-    background-image: url("src/lib/assets/images/Rektguy.gif");
+    background-image: url("/src/lib/assets/images/Rektguy.gif");
     background-size: auto 100%;
     background-position: center;
     background-repeat: repeat-x;

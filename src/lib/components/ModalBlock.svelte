@@ -7,7 +7,7 @@
     <li class="carousel-slide">
       <!-- Fallback -->
       <img
-        src="src\lib\assets\images\Character-1.png"
+        src="/src/lib/assets/images/Character-1.png"
         alt="Character-2"
         loading="lazy"
         class="character-1"
@@ -18,7 +18,7 @@
     <li class="carousel-slide">
       <!-- Fallback -->
       <img
-        src="src\lib\assets\images\Character-2.png"
+        src="/src/lib/assets/images/Character-2.png"
         alt="Character-2"
         loading="lazy"
         class="character-2"
@@ -32,7 +32,7 @@
     <li class="carousel-slide">
       <!-- Fallback -->
       <img
-        src="src\lib\assets\images\Character-3.png"
+        src="/src/lib/assets/images/Character-3.png"
         alt="Character-3"
         loading="lazy"
         class="character-3"
