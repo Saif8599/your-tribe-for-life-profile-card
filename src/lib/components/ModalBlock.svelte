@@ -12,6 +12,8 @@
         loading="lazy"
         class="character-1"
       />
+      <p>"I'm not a normal cat.”</p>
+      <p>- Silhouette</p>
     </li>
     <li class="carousel-slide">
       <!-- Fallback -->
@@ -21,6 +23,11 @@
         loading="lazy"
         class="character-2"
       />
+      <p>
+        Just a monkey with a phone, trying to stay connected. Founder of Banana
+        Clique Media. Professional snack enthusiast.
+      </p>
+      <p>- Banksy</p>
     </li>
     <li class="carousel-slide">
       <!-- Fallback -->
@@ -30,10 +37,14 @@
         loading="lazy"
         class="character-3"
       />
+      <p>Hey! What do you think about the design?</p>
+      <p>- Kers</p>
     </li>
   </div>
 
-  <!-- <SocialMediaBlock /> -->
+  <div class="social-media-wrapper">
+    <SocialMediaBlock />
+  </div>
 </dialog>
 <button class="dialog-button" popovertarget="profile-card">Click</button>
 
@@ -45,8 +56,11 @@
     padding: 2rem;
     max-width: 350px;
     width: 100%;
-    border: 1px solid black;
+    border: 5px solid black;
     height: 80vh;
+    background: linear-gradient(to right, transparent, transparent),
+      url(https://grainy-gradients.vercel.app/noise.svg);
+    background-color: rgba(255, 255, 255, 0.5);
   }
 
   .profile-card:popover-open ~ .dialog-button {
@@ -69,6 +83,10 @@
   .carousel-slide {
     flex: 0 0 100%;
     scroll-snap-align: center;
+  }
+
+  .carousel-slide img {
+    margin-bottom: 30px;
   }
 
   .carousel--scroll-buttons {
@@ -99,7 +117,7 @@
     }
   }
 
-  .carousel::scroll-marker-group {
+  /* .carousel::scroll-marker-group {
     display: flex;
     justify-content: center;
     gap: 0.5em;
@@ -115,10 +133,17 @@
 
   .carousel-slide::scroll-marker:target-current {
     background-color: var(--text-color);
-  }
+  } */
 
   ::-webkit-scrollbar {
     width: 0;
+  }
+
+  .social-media-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 2em;
   }
 
   .dialog-button {
