@@ -1,4 +1,6 @@
 <script>
+  export let className = "";
+
   import EmailIcon from "$lib/assets/icons/EmailIcon.svelte";
   import EmailHoverIcon from "$lib/assets/icons/EmailHoverIcon.svelte";
   import DiscordIcon from "$lib/assets/icons/DiscordIcon.svelte";
@@ -9,19 +11,25 @@
   // import GithubHoverIcon from "$lib/assets/icons/GithubHoverIcon.svelte";
 </script>
 
-<section class="email-container">
+<section class="container {className}">
   <ul class="icon-list">
     <li class="icon-wrapper">
-      <EmailIcon className="default-icon" />
-      <EmailHoverIcon className="hover-icon" />
+      <a href="mailto:SaifzMuhamad@gmail.com">
+        <EmailIcon className="default-icon" />
+        <EmailHoverIcon className="hover-icon" />
+      </a>
     </li>
     <li class="icon-wrapper">
-      <DiscordIcon className="default-icon" />
-      <DiscordHoverIcon className="hover-icon" />
+      <a href="/">
+        <DiscordIcon className="default-icon" />
+        <DiscordHoverIcon className="hover-icon" />
+      </a>
     </li>
     <li class="icon-wrapper">
-      <TwitterIcon className="default-icon" />
-      <TwitterHoverIcon className="hover-icon" />
+      <a href="/">
+        <TwitterIcon className="default-icon" />
+        <TwitterHoverIcon className="hover-icon" />
+      </a>
     </li>
     <!-- <li class="icon-wrapper">
       <GithubIcon className="default-icon" />
@@ -31,10 +39,15 @@
 </section>
 
 <style>
+  .container {
+    width: fit-content;
+  }
+
   .icon-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: fit-content;
   }
 
   .icon-wrapper {
