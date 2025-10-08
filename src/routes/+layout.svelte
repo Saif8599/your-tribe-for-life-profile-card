@@ -99,7 +99,7 @@
   .layout-container {
     min-height: 100vh;
     width: 100%;
-    background-image: url("/src/lib/assets/images/Rektguy.gif");
+    background-image: url("/images/Rektguy.gif");
     background-size: auto 100%;
     background-position: center;
     background-repeat: repeat-x;
